@@ -1,6 +1,6 @@
 [![Logo](https://github.com/raghusbhat/logo/blob/main/rb-logo.png?raw=true)](https://www.raghubhat.com/)
 
-# 👉 <ins>[Notes App](https://raghubhat-codementordemo.netlify.app/)</ins>&nbsp;live demo
+# 👉 <ins>[Notes App](https://raghubhat-notesdemo.netlify.app/)</ins>&nbsp;live demo
 
 | Mobile                                                                                          | Desktop                                                                                    |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -29,6 +29,11 @@ Following libraries are used:
     ✅ Great UI Design
 
     ✅ Light and fast
+
+<hr>
+
+## Lightouse
+![Lightouse](https://github.com/raghusbhat/notesApp/blob/main/lighthouse.JPG?raw=true)
 
 <hr>
 
