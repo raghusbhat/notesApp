@@ -11,7 +11,7 @@
 
 ## Description
 
-This is an responsive Angular 12 notes app demo website.
+This is an responsive Angular 13 notes app demo website.
 Following libraries are used:
 
     ✅ Angular: 13
