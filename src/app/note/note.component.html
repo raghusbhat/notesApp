@@ -1,0 +1,30 @@
+  <form autocomplete="off" [formGroup]="noteForm">
+    <div mat-dialog-content class="note">
+      <div>
+        <mat-form-field color="accent">
+          <mat-label>Title</mat-label>
+          <input type="text" matInput name="title" formControlName="title" />
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field color="accent">
+          <mat-label>Note</mat-label>
+          <textarea
+            type="text"
+            cdkTextareaAutosize
+            matInput
+            name="note"
+            formControlName="note"
+          ></textarea>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div mat-dialog-actions>
+      <button color="accent" mat-raised-button (click)="addNote()">Save</button>
+      <button class="cancelbtn" [mat-dialog-close]="true" mat-stroked-button>
+        Cancel
+      </button>
+    </div>
+  </form>
+

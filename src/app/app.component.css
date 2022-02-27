@@ -1,0 +1,58 @@
+.wrapper {
+  background-image: url("src/assets/bg.jpg");
+  height: 100vh;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  
+}
+
+.caution{
+    background-color: aquamarine;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+
+.fab-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+}
+
+mat-label {
+    color: #da1c5c;
+}
+
+mat-card {
+  font-family: "Architects Daughter", cursive;
+  background-color: #141e30;
+}
+
+mat-card-content {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 350px;
+  white-space: nowrap;
+  opacity: 0.5;
+}
+mat-card-actions {
+    display:flex;
+    justify-content:space-between;
+}
+mat-card-actions > mat-icon {
+  /* margin: auto 2px; */
+  font-size: 1.5em;
+  color: #da1c5c;
+  cursor: pointer;
+}

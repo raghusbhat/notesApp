@@ -1,0 +1,15 @@
+mat-form-field {
+  width: 100%;
+  height: 100%;
+  font-family: "Architects Daughter", cursive;
+  font-size: x-large;
+}
+
+mat-label {
+  color: white;
+  opacity: 0.5;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+
